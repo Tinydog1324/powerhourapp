@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Hour</title>
+    <link href="style.css">
+</head>
+<body>
+    <html>
+  <head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+    <h1>Power Hour Playlist</h1>
+    </div>
+    <div class="container">
+  <div class="circle-container left">
+  
+    <img class="circle" src="https://dinoanimals.com/wp-content/uploads/2021/01/Burmese-cat-16.jpg">
+  </div>
+
+      <div class="image-container">
+        <img class="whitecat" src="walteryellowcat.png" >
+        <img class="new-image" src="waltercat.png" alt="New Image">
+    </div>
+
+  <div class="circle-container right">
+    
+  
+    <img class="circle" src="https://dinoanimals.com/wp-content/uploads/2021/01/Burmese-cat-16.jpg">
+  </div>
+</div>
+    <div id="bg-color">
+    <h2>Player List</h2>
+  <div id="player-list">
+    <ul id="players"></ul>
+  </div>
+  <br><br>
+  <form>
+    <label for="player-name">Enter player name:</label>
+    <input type="text" id="player-name">
+    <button type="button" onclick="addPlayer()">Add player</button>
+    <button type="button" onclick="deletePlayer()">Delete player</button>
+
+  </form>
+    
+    <input type="file" id="upload-file" accept="audio/*">
+    <br><br>
+    <table id="playlist">
+      <tr>
+        <th>Song Name</th>
+        <th>Duration</th>
+        <th>Action</th>
+      </tr>
+    </table>
+    <br><br>
+    <audio id="player" controls></audio>
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>
+
+</body>
+</html>
